@@ -1,0 +1,23 @@
+{
+  "SourceWS":
+  {
+    "Path":"E:\\Git\\Library\\_Publish",
+    "UpdatePath":"E:\\Git\\Library\\_Update\\",
+    "Projects": [
+      {
+        "Project": {
+          "Enable": true,
+          "Name": "Library.Web",
+          "ServiceName": "library-web.service"
+        }
+      }
+    ]
+  },
+  "DestinationWS":{
+    "SshPath": "root@192.168.221.130",
+    "HostName": "library-server-machine",
+    "Path": "/projects/Library/",
+    "BackupPath":"/projects/Library/_Backup/",
+    "UpdatePath":"/projects/Library/_Update/"
+  }
+}
